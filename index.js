@@ -5,9 +5,7 @@ const rl = readline.createInterface({
     output: process.stdout
 });
 
-/**
- * Parser for the commands that user input
- */
+
 let intiMain = () => {
 
     rl.on('line', async (input) => {
